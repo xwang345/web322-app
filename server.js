@@ -25,12 +25,6 @@ app.get("/", function(req,res){
    res.sendFile(path.join(__dirname + "/views/home.html"));
 });
 
-
-// app.use(express.static(__dirname + '/public/css'));
-// app.use('')
-
-app.use(express.static(__dirname + '/public/css'));
-
 // setup another route to listen on /about
 app.get("/about", function(req,res){
   res.sendFile(path.join(__dirname + "/views/about.html"));
