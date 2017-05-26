@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/xwang345/web322-app/issues"
   },
-  "homepage": "https://github.com/xwang345/web322-app#readme"
+  "homepage": "https://github.com/xwang345/web322-app#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
